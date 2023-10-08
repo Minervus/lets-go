@@ -1,0 +1,18 @@
+## How to Hello World
+
+package main
+
+import "fmt" 
+
+
+func main(){
+  fmt.Println("Hello World")
+}
+
+## Running and building
+
+go run hello-world.go // runs it 
+
+go build hello-world.go // builds it
+
+./hello-world // run it after building
